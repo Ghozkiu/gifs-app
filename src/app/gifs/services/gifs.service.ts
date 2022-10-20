@@ -1,5 +1,6 @@
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { environment } from 'src/environments/environment';
 import { Gif, SearchGifsResponse } from '../interfaces/gifs.interface';
 
 @Injectable({
@@ -7,7 +8,7 @@ import { Gif, SearchGifsResponse } from '../interfaces/gifs.interface';
 })
 export class GifsService {
   private _history: string[] = [];
-  private apiKey: string = 'nCi7dgc46R3TLHNXhPPDyJgfk3CmUPNd';
+  private apiKey: string = environment.API_KEY;
   private serviceUrl: string = 'https://api.giphy.com/v1/gifs';
   public results: Gif[] = [];
 
