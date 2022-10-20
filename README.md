@@ -1,5 +1,8 @@
+# [Preview](https://magnificent-raindrop-c404d3.netlify.app)
+![alt text](https://i.imgur.com/zj0Ygkh.png)
+![alt text](https://i.imgur.com/bGmvKKp.png)
+![alt text](https://i.imgur.com/SAola5J.png)
 # GifsApp
-
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
 
 ## Development server
